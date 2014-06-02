@@ -123,11 +123,10 @@ footer div
   width: 200px;
   height:100%;
   left:0px;
-  position:absolute;
+
 }
   .nav-collapse li {
-    float: left;
-    width: 10%;
+    width: 100%;
 }
 }
 
