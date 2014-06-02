@@ -1,7 +1,7 @@
 body
 {
  background: #FFFFFF;
- font-family:arial;
+ font-family:Monda, Arial;
  text-decoration:none;
  font-size:1em;
  padding:0px;
@@ -10,13 +10,21 @@ body
 
 a
 {
-  
+  color:#707070;
+  text-decoration:none;
+  font-weight:lighter;
 }
 
 img
 {
  border:1px solid #000000;
  box-shadow:0px 0px 3px #000000;
+}
+
+footer div
+{
+ margin-left:25%;
+ display:inline-block;
 }
 
 #header h2
@@ -34,6 +42,11 @@ img
  
 }
 
+#twoway
+{
+ height:100%;
+}
+
 .wrapper img
 {
  width:100%;
@@ -43,11 +56,4 @@ img
 {
  text-decoration:none;
  color:#DDDDDD;
-}
-footer div{
- margin-left:25%;
- display:inline-block;
-}
-#twoway{
- height:100%;
 }
