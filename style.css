@@ -85,9 +85,7 @@ footer div
 .nav-collapse,
 .nav-collapse ul {
   list-style: none;
-  width: 60%;
-  margin-left:20%;
-  
+  width: 100%;
   float: left;
 }
 
@@ -123,6 +121,13 @@ footer div
     border-bottom: 0;
     border-right: 1px solid white;
   }
+  .nav-collapse,
+.nav-collapse ul {
+  list-style: none;
+  width: 60%;
+  margin-left:20%;
+  float: left;
+}
   .nav-collapse li {
     float: left;
     width: 10%;
