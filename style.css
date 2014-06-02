@@ -101,6 +101,10 @@ footer div
     _width: 19%; /* IE6 Hack */
   }
 }
+.nav-collapse li {
+  float: left;
+  width: 10%;
+}
 
 .nav-collapse a {
   color: #fff;
