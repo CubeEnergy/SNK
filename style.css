@@ -175,11 +175,6 @@ footer div
   width: 70px;
   height: 55px;
   float: right;
-  transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transition: all 0.145s ease-out;
-  -webkit-transition: all 0.145s ease-out;
 }
 
 .nav-toggle:before {
@@ -191,7 +186,7 @@ footer div
   font-size: 2.5em;
   text-transform: none;
   position: absolute;
-  content: "≡";
+  content: "+";
   text-indent: 0;
   text-align: center;
   line-height: 55px;
@@ -199,13 +194,8 @@ footer div
   width: 100%;
   top: 0;
   left: 0;
-  transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
 }
 
 .nav-toggle.active::before {
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
+  content: "-";
 }
