@@ -194,7 +194,8 @@ footer div
   width: 100%;
   top: 0;
   left: 0;
-  transition: transform 1s;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
 }
 
 .nav-toggle.active::before {
