@@ -121,10 +121,11 @@ footer div
   }
 .nav-collapse ul {
   list-style: none;
-  width: 12em;
+  width: 200px;
   height:100%;
   left:0px;
   margin:0px;
+  position:absolute;
 }
   .nav-collapse li {
     width: 100%;
