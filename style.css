@@ -119,6 +119,7 @@ footer div
     border-bottom: 0;
     border-right: 1px solid white;
   }
+  .nav-collapse,
 .nav-collapse ul {
   list-style: none;
   width: 12em;
