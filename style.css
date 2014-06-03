@@ -98,13 +98,13 @@ footer div
   text-decoration: none;
   width: 100%;
   background: none;
-  border-bottom: 1px solid #D3D3D3;
+  border-top: 1px solid #D3D3D3;
   padding: 0.7em 1em;
   float: left;
 }
 
-.nav-collapse a:first-child {
-  border-top: 1px solid #D3D3D3
+.nav-collapse a:last-child {
+  border-bottom: 1px solid #D3D3D3
 }
 
 .nav-collapse a:hover {
