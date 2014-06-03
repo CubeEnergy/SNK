@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 61em) {
   .js .nav-collapse {
-    position: absolute;
+ 
   }
   .js .nav-collapse.closed {
     max-height: none;
