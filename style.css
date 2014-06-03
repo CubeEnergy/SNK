@@ -175,8 +175,11 @@ footer div
   width: 70px;
   height: 55px;
   float: right;
-  transition: all 0.1s ease-out;
-  -webkit-transition: all 0.1s ease-out;
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transition: all 0.145s ease-out;
+  -webkit-transition: all 0.145s ease-out;
 }
 
 .nav-toggle:before {
@@ -196,6 +199,9 @@ footer div
   width: 100%;
   top: 0;
   left: 0;
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
 }
 
 .nav-toggle.active::before {
