@@ -52,17 +52,18 @@ footer div
  height:100%;
 }
 
+.navbar ul li
+{
+ text-decoration:none;
+ color:#DDDDDD;
+}
+
 .wrapper img
 {
  max-width:100%;
  height:auto;
 }
 
-.navbar
-{
- text-decoration:none;
- color:#DDDDDD;
-}
 /* ------------------------------------------
   NAVIGATION STYLES
   (+ responsive-nav.css file is loaded in the <head>)
