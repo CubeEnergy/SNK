@@ -85,13 +85,13 @@ footer div
 .nav-collapse,
 .nav-collapse ul {
   list-style: none;
-  width: 50%;
+  width: 100%;
   float: left;
 }
 
 .nav-collapse li {
   float: left;
-  width: 100%;
+  width: 50%;
 }
 
 @media screen and (min-width: 61em) {
