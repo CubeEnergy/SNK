@@ -192,10 +192,11 @@ footer div
   width: 100%;
   top: 0;
   left: 0;
+  transition: transform 1s;
 }
 
 .nav-toggle.active::before {
-  transform:rotate(90deg);
+  transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
 }
