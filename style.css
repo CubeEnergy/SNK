@@ -52,13 +52,6 @@ footer div
  height:100%;
 }
 
-.navbar a
-{
- background:none;
- text-decoration:none;
- color:#DDDDDD;
-}
-
 .wrapper img
 {
  max-width:100%;
@@ -101,13 +94,21 @@ footer div
 }
 
 .nav-collapse a {
-  color: #fff;
+  color: #0C0C0C;
   text-decoration: none;
   width: 100%;
-  background: #f4421a;
-  border-bottom: 1px solid white;
+  background: none;
+  border-bottom: 1px solid #D3D3D3;
   padding: 0.7em 1em;
   float: left;
+}
+
+.nav-collapse a:first-child {
+  border-top: 1px solid #D3D3D3
+}
+
+.nav-collapse a:hover {
+  box-shadow: inset 0px 0px 40px #EEEEEE;
 }
 
 @media screen and (min-width: 61em) {
