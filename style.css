@@ -72,9 +72,9 @@ footer div
 
 .nav-collapse,
 .nav-collapse * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+ // -moz-box-sizing: border-box;
+ // -webkit-box-sizing: border-box;
+ // box-sizing: border-box;
 }
 
 .nav-collapse ul {
@@ -177,9 +177,6 @@ footer div
   float: right;
   transition: all 0.1s ease-out;
   -webkit-transition: all 0.1s ease-out;
-  transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
 }
 
 .nav-toggle:before {
