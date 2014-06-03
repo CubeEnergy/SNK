@@ -202,10 +202,14 @@ footer div
   transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  transition: all 0.145s ease-out;
+  -webkit-transition: all 0.145s ease-out;
 }
 
 .nav-toggle.active::before {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
+  transition: all 0.145s ease-out;
+  -webkit-transition: all 0.145s ease-out;
 }
