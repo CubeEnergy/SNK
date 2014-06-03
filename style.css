@@ -75,9 +75,9 @@ footer div
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 
-.nav-collapse,
 .nav-collapse ul {
   list-style: none;
   width: 100%;
@@ -98,9 +98,13 @@ footer div
   text-decoration: none;
   width: 100%;
   background: none;
-  border: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
   padding: 0.7em 1em;
   float: left;
+}
+
+.nav-collapse a:first-child {
+  border-top: 1px solid #D3D3D3
 }
 
 .nav-collapse a:hover {
@@ -116,7 +120,6 @@ footer div
     border-bottom: 0;
     border-right: 1px solid white;
   }
-  .nav-collapse,
 .nav-collapse ul {
   list-style: none;
   width: 12em;
