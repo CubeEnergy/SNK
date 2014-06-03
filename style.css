@@ -181,12 +181,12 @@ footer div
 }
 
 .nav-toggle:before {
-  color: #f4421a; /* Edit this to change the icon color */
+  color: ##575757; /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  font-size: 28px;
+  font-size: 2.5em;
   text-transform: none;
   position: absolute;
   content: "≡";
