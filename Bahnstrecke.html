@@ -50,7 +50,7 @@
     map.addLayer(new OpenLayers.Layer.OSM());
  
 var pois = new OpenLayers.Layer.Text( "My Points",
-                    { location:"./Bahnstrecke.txt",
+                    { location:"http://www.soltau-neuenkirchener-kleinbahn.de/Bahnstrecke.txt",
                       projection: map.displayProjection
                     });
     map.addLayer(pois);
