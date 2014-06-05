@@ -32,6 +32,11 @@ footer div
  margin-top:2em;
 }
 
+div.olMap
+{
+ margin-left:25%; !important
+}
+
 #header h2
 {
  margin-bottom:0.5em;
