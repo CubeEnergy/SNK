@@ -343,6 +343,9 @@ h3 {
   header, footer, #twoway {
     margin: 0 5.555555555555555%;
   }
+  footer div {
+    margin-left:25%;
+  }
   header .wrapper {
     width: 37.5%;
     margin-left: 25%;
