@@ -207,7 +207,7 @@ body {
 *  5.55555% | %  25  50  75  100 | 5.55555%
 *
 */
-header, footer, #twoway {
+header, footer, #twoway, #oneway {
   margin: 0 5.555555555555555%;
 }
 h1, h2 {
@@ -282,6 +282,9 @@ h3 {
     float: left;
     width: 50%;
   }
+  #oneway .wrapper {
+    width: 100%;
+  }
 }
 /* @media screen and (min-width: 888px) */
 @media screen and (min-width: 55.5em) {
@@ -348,6 +351,12 @@ h3 {
   }
   header .wrapper {
     width: 37.5%;
+    margin-left: 25%;
+  }
+  #oneway .wrapper {
+    width:25%;
+  }
+  #oneway .wrapper:first-child {
     margin-left: 25%;
   }
   #twoway .wrapper {
