@@ -80,6 +80,7 @@ footer div
 .nav-collapse ul {
   list-style: none;
   width: 100%;
+  margin-bottom:1em;
   float: left;
 }
 
