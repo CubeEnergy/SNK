@@ -43,7 +43,8 @@
     </ul>
   </nav>
 <div id="oneway">
-<div id="mapdiv" class="wrapper"></div>
+<div class="wrapper">
+<div id="mapdiv"></div>
   <script src="http://www.openlayers.org/api/OpenLayers.js" type="text/javascript"></script>
   <script type="text/javascript">
     map = new OpenLayers.Map("mapdiv");
@@ -64,6 +65,7 @@ var pois = new OpenLayers.Layer.Text( "My Points",
     map.setCenter (lonLat, zoom);  
  
   </script>
+</div>
 </div>
   <footer>
     <div class="wrapper">
