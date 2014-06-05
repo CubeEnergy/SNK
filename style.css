@@ -56,6 +56,10 @@ footer div
  max-width:100%;
  height:auto;
 }
+footer
+{
+ margin-top:1em;
+}
 
 /* ------------------------------------------
   NAVIGATION STYLES
