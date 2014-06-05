@@ -40,7 +40,7 @@
   user-select: none;
 }
 
-@media screen and (min-width: 67em) {
+@media screen and (min-width: 65em) {
   .js .nav-collapse {
     width:9.4em;
   }
