@@ -87,7 +87,7 @@ footer div
   width: 50%;
 }
 
-@media screen and (min-width: 67em) {
+@media screen and (min-width: 65em) {
   
 }
 
@@ -109,7 +109,7 @@ footer div
   box-shadow: inset 0px 0px 40px #EEEEEE;
 }
 
-@media screen and (min-width: 67em) {
+@media screen and (min-width: 65em) {
   .nav-collapse a {
     margin: 0;
     padding: 1em;
@@ -136,7 +136,7 @@ footer div
   padding-left: 2em;
 }
 
-@media screen and (min-width: 67em) {
+@media screen and (min-width: 65em) {
   .nav-collapse ul ul a {
     display: none;
   }
