@@ -264,7 +264,7 @@ h3 {
 }
 /*
 *
-*  Eight-column grid active
+*  Eight-column grid active 
 *  ----------------------------------------------------------------------
 *  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
 *  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
@@ -342,9 +342,6 @@ h3 {
 @media screen and (min-width: 117em) {
   header, footer, #twoway {
     margin: 0 5.555555555555555%;
-  }
-  footer div {
-    margin-left:25%;
   }
   header .wrapper {
     width: 37.5%;
