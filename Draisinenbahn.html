@@ -1,34 +1,48 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!doctype html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
 <head>
-<title>www.soltau-neuenkirchener-kleinbahn.de</title>
+<title>Test</title>
+<link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="content-script-type" content="text/javascript">
 <meta http-equiv="content-style-type" content="text/css">
 <meta http-equiv="content-language" content="de">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="author" content="Christian Thal">
 <meta name="keywords" content="Soltau, Neuenkirchen, Gilmerdingen, Ellingen, Wiedingen, Bahnstrecke, Strecke, Geschichte, Aktuelle Bilder, Historische Bilder, Triebfahrzeuge, Schienenfahrzeuge, Bahnhof, Bus">
-<link rel="stylesheet" type="text/css" href="Startseite.css"><link>
+<link rel="stylesheet" type="text/css" href="GGS.css"><link>
+<link rel="stylesheet" type="text/css" href="style.css"><link>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script type="text/javascript" src="GGS.js"></script>
+<link rel="stylesheet" href="responsive-nav.css">
+<script src="responsive-nav.js"></script>
 </head>
 <body>
-<div id="header">
-<h1>Die Neuenkirchener Draisinenbahn</h1>
+<header>
+  <div id="header" class="wrapper">
+    <h2>Draisinen Bahnstrecke</h2>
+    <h3>Drasinenbahn</h3>
   </div>
-<ul class="navbar">
-  <li><a href="index.html">Startseite</a></li>
-  <li><a href="Bahnstrecke.html">Bahnstrecke</a></li>
-  <li><a href="Schienenfahrzeuge.html">Schienenfahrzeuge</a></li>
-  <li><a href="Literatur.html">Literatur</a></li>
-  <li><a href="Filme.html">Filme</a></li>
-  <li><a href="Draisinenbahn.html">Draisinenbahn</a></li>
-  <li><a href="Downloads.html">Downloads</a></li>
-  <li><a href="Zukunft.html">Zukunft</a></li>
-  <li><a href="Links.html">Links</a></li>
-  <li><a href="Update.html">Update</a></li>
-  <li><a href="Impressum.html">Impressum</a></li>
-</ul>
+</header>
+  <nav class="nav-collapse">
+    <ul class="navbar">
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="Bahnstrecke.html">Bahnstrecke</a></li>
+      <li><a href="Schienenfahrzeuge.html">Schienenfahrzeuge</a></li>
+      <li><a href="Literatur.html">Literatur</a></li>
+      <li><a href="Filme.html">Filme</a></li>
+      <li><a href="Draisinenbahn.html">Draisinenbahn</a></li>
+      <li><a href="Downloads.html">Downloads</a></li>
+      <li><a href="Zukunft.html">Zukunft</a></li>
+      <li><a href="Links.html">Links</a></li>
+      <li><a href="Update.html">Update</a></li>
+    </ul>
+  </nav>
+<div id="oneway">
 <h2><img src="./Draisinenbahn/IMGP5069.JPG" alt="Draisine"><br>
 Die Beschreibung</h2><br>
 <h3>Die Draisinenbahn benutzt ein kleines Teilstück der ehemaligen Bahnstrecke:<br>
@@ -72,5 +86,31 @@ Die Bushaltestelle: Neuenkirchen, Bahnhof<br>
 liegt näher als Neuenkirchen, Schützenhalle.<br>
 Hier noch zwei Landkarten zur Anreise:<br>
 <a href="http://openptmap.org/">Nahverkehrslandkarte mit Bushaltestellenübersicht</a><br><a href="http://www.openstreetmap.org/">Landkarte</a></h3>
-</body>
+</div>
+  <footer>
+    <div class="wrapper">
+      <p>Berichtigungsmitteilungen/ Verbesserungen/ Vorschläge einfach per E-Mail an mich: 
+        <a href="mailto:thal1982@gmx.de">thal1982@gmx.de</a>
+      </p>
+      <a href="Impressum.html">Impressum</a>
+    </div>
+ </footer>
+ <script>
+        var nav = responsiveNav(".nav-collapse", { // Selector
+  animate: true, // Boolean: Use CSS3 transitions, true or false
+  transition: 284, // Integer: Speed of the transition, in milliseconds
+  label: "Menu", // String: Label for the navigation toggle
+  insert: "before", // String: Insert the toggle before or after the navigation
+  customToggle: "", // Selector: Specify the ID of a custom toggle
+  closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+  openPos: "relative", // String: Position of the opened nav, relative or static
+  navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+  navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+  jsClass: "js", // String: 'JS enabled' class which is added to  element
+  init: function(){}, // Function: Init callback
+  open: function(){}, // Function: Open callback
+  close: function(){} // Function: Close callback
+});
+    </script>
+  </body>
 </html>
