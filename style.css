@@ -29,6 +29,7 @@ img
 footer div
 {
  display:inline-block;
+ margin-top:2em;
 }
 
 #header h2
@@ -55,10 +56,6 @@ footer div
 {
  max-width:100%;
  height:auto;
-}
-footer
-{
- margin-top:1em;
 }
 
 /* ------------------------------------------
