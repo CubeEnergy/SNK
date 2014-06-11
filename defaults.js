@@ -1,7 +1,7 @@
 function fillNav()
 {
   var nav = document.getElementById("nav");
-  nav.innerHTML = '<ul class="navbar"> \
+  nav.innerHTML += '<ul class="navbar"> \
       <li><a href="index.html">Startseite</a></li> \
       <li><a href="Bahnstrecke.html">Bahnstrecke</a></li> \
       <li><a href="Schienenfahrzeuge.html">Schienenfahrzeuge</a></li> \
