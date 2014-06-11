@@ -19,10 +19,7 @@ function fillFooter()
 {
   var footer = document.getElementById("footer");
   footer.innerHTML = '<div class="wrapper"> \
-      <p>Berichtigungsmitteilungen/ Verbesserungen/ Vorschläge einfach per E-Mail an mich: \
-        <a href="mailto:thal1982@gmx.de">thal1982@gmx.de</a> \
-      </p> \
-      <a href="Impressum.html">Impressum</a> \
+      <a href="Impressum.html">Impressum</a> | <a href="mailto:thall1982@gmx.de">E-Mail: thal1982@gmx.de</a> \
     </div>';
 }
 
