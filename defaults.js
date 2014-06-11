@@ -37,3 +37,7 @@ function fillHead()
         <link rel="stylesheet" href="responsive-nav.css"> \
         <script src="responsive-nav.js"></script>';
 }
+
+fillHead();
+fillNav();
+fillFooter();
