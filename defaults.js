@@ -25,3 +25,15 @@ function fillFooter()
       <a href="Impressum.html">Impressum</a> \
     </div>';
 }
+
+function fillHead()
+{
+  var head = document.head;
+  head.innerHTML += '<link href="http://fonts.googleapis.com/css?family=Monda" rel="stylesheet" type="text/css"> \
+        <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css"> \
+        <link rel="stylesheet" type="text/css" href="GGS.css"><link> \
+        <link rel="stylesheet" type="text/css" href="style.css"><link> \
+        <script type="text/javascript" src="GGS.js"></script> \
+        <link rel="stylesheet" href="responsive-nav.css"> \
+        <script src="responsive-nav.js"></script>';
+}
