@@ -556,9 +556,9 @@ var nav = responsiveNav(".nav-collapse", { // Selector
   close: function(){} // Function: Close callback
 });
 
-function doSth()
+function doOnLoad()
 {
 	nav.resize();
 }
 
-window.onload = doSth;
+window.onload = doOnLoad;
