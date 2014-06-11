@@ -555,3 +555,5 @@ var nav = responsiveNav(".nav-collapse", { // Selector
   open: function(){}, // Function: Open callback
   close: function(){} // Function: Close callback
 });
+
+nav.close();
