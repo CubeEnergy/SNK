@@ -46,6 +46,7 @@
   }
   .js .nav-collapse.closed {
     max-height: none;
+    margin-top: 70px;
   }
   .nav-toggle {
     display: none;
