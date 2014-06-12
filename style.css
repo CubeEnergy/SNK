@@ -1,6 +1,6 @@
 body
 {
- background: linear-gradient(#FFFFFF, #EDEDED) fixed;
+ background: linear-gradient(#FFFFFF, #FEFEFE) fixed;
  font-family:Monda, Arial;
  text-decoration:none;
  font-size:1em;
@@ -20,7 +20,7 @@ a:hover
  color:#707070;
 }
 
-img
+img, #mapdiv.olMap
 {
  border:1px solid #000000;
  box-shadow:0px 0px 3px #000000;
@@ -136,7 +136,7 @@ div.olMap img
 }
 
 .nav-collapse a:hover {
-  box-shadow: inset 0px 0px 40px #DDDDDD;
+  box-shadow: inset 0px 0px 40px #D3D3D3;
 }
 
 @media screen and (min-width: 65em) {
