@@ -76,6 +76,8 @@ div.olMap img
 	padding-top: 15px;
 	height: 0;
 	overflow: hidden;
+	margin-top:2em;
+	margin-bottom:2em;
 }
 .elastic-video iframe {
 	position: absolute;
