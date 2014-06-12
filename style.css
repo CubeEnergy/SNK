@@ -37,6 +37,8 @@ div.olMap
 {
  margin-left: 25% !important;
  height: 40em;
+ width: 100%;
+ display: inline-block;
 }
 
 div.olMap img
