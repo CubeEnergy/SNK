@@ -1,6 +1,6 @@
 body
 {
- background: #FFFFFF;
+ background: linear-gradient(#FFFFFF, #DDDDDD);
  font-family:Monda, Arial;
  text-decoration:none;
  font-size:1em;
@@ -146,7 +146,7 @@ div.olMap img
     float: left;
     text-align: left;
     border-bottom: 0;
-    border-right: 1px solid white;
+    border-right: 0px solid white;
   }
 .nav-collapse ul {
   list-style: none;
