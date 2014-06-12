@@ -1,36 +1,36 @@
 body
 {
  background: linear-gradient(#FFFFFF, #FEFEFE) fixed;
- font-family:Monda, Arial;
- text-decoration:none;
- font-size:1em;
- padding:0px;
- margin:0px;
+ font-family: Monda, Arial;
+ text-decoration: none;
+ font-size: 1em;
+ padding: 0px;
+ margin: 0px;
 }
 
 a
 {
- color:#0053AD;
- text-decoration:none;
- font-weight:lighter;
+ color: #0053AD;
+ text-decoration: none;
+ font-weight: lighter;
 }
 
 a:hover
 {
- color:#707070;
+ color: #707070;
 }
 
 img, #mapdiv.olMap
 {
- border:1px solid #000000;
- box-shadow:0px 0px 3px #000000;
+ border: 1px solid #000000;
+ box-shadow: 0px 0px 3px #000000;
 }
 
 footer div
 {
- display:inline-block;
- margin-top:2em;
- text-align:center;
+ display: inline-block;
+ margin-top: 2em;
+ text-align: center;
 }
 
 div.olMap
@@ -41,18 +41,19 @@ div.olMap
 
 div.olMap img
 {
- border:none;
- box-shadow:none;
+ border: none;
+ box-shadow: none;
 }
 
 #header h2
 {
- margin-bottom:0.5em;
+ margin-bottom: 0.5em;
+ border-bottom: 1px solid #D3D3D3;
 }
 
 #header h3
 {
- margin-top:0em;
+ margin-top: 0em;
 }
 
 #link
@@ -62,13 +63,13 @@ div.olMap img
 
 #twoway
 {
- height:100%;
+ height: 100%;
 }
 
 .wrapper img
 {
- max-width:100%;
- height:auto;
+ max-width: 100%;
+ height: auto;
 }
 .elastic-video {
 	position: relative;
@@ -150,11 +151,11 @@ div.olMap img
   }
 .nav-collapse ul {
   list-style: none;
-  width:9.4em;
-  height:100%;
-  left:0px;
-  margin:0px;
-  position:absolute;
+  width: 9.4em;
+  height: 100%;
+  left: 0px;
+  margin: 0px;
+  position: absolute;
 }
   .nav-collapse li {
     width: 100%;
