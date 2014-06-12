@@ -20,7 +20,7 @@ function fillFooter()
   var footer = document.getElementById("footer");
   footer.innerHTML = '<div class="wrapper"> \
       <a href="Impressum.html">Impressum</a> | <a href="mailto:thall1982@gmx.de">E-Mail: thal1982@gmx.de</a> | \
-      Desigend von Jonas Tödter und Kevin Vorwerk  \
+      Design von Jonas Tödter und Kevin Vorwerk  \
     </div>';
 }
 
